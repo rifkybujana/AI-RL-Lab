@@ -1,0 +1,18 @@
+{
+    "run_name": "DQN-TORCH-BREAKOUT-TF",
+    "env_id": "ALE/Breakout-v5",
+    "seed": 1,
+    "total_timesteps": 1000000,
+    "learning_rate": 2e-5,
+    "buffer_size": 250000,
+    "gamma": 0.99,
+    "target_network_frequency": 1000,
+    "batch_size": 64,
+    "start_e": 1.0,
+    "end_e": 0.01,
+    "exploration_fraction": 0.10,
+    "learning_starts": 40000,
+    "train_frequency": 4,
+    "net": "bigger",
+    "loss": "hubber"
+}

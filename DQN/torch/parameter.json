@@ -1,0 +1,16 @@
+{
+    "run_name": "DQN-TORCH-BREAKOUT-3",
+    "env_id": "ALE/Breakout-v5",
+    "seed": 1,
+    "total_timesteps": 1000000,
+    "learning_rate": 1e-4,
+    "buffer_size": 250000,
+    "gamma": 0.99,
+    "target_network_frequency": 1000,
+    "batch_size": 32,
+    "start_e": 1,
+    "end_e": 0.01,
+    "exploration_fraction": 1e-6,
+    "learning_starts": 10000,
+    "train_frequency": 4
+}
