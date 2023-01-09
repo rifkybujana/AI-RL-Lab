@@ -21,7 +21,7 @@ from stable_baselines3.common.atari_wrappers import (
 from stable_baselines3.common.buffers import ReplayBuffer
 
 class Parameters:
-    PATH = os.path.join(os.getcwd(), "DQN", "torch", 'parameter.json')
+    PATH = os.path.join(os.getcwd(), "DQN", 'parameter.json')
 
     def __init__(self):
         with open(self.PATH, "r") as f:
